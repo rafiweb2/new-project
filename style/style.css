@@ -42,3 +42,10 @@
     margin-top: 40px;
 
 }
+
+/* About section */
+.about{
+    display: flex;
+    align-items: center;
+    
+}
