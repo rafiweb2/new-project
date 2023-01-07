@@ -1,13 +1,14 @@
 /* Font */
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+
 /* Header */
-.header{
+.header {
     text-align: right;
-    background-image:url(../images/banner/banner2.png) ;
+    background-image: url(../images/banner/banner2.png);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -15,20 +16,24 @@
     padding: 216px 200px 0 1000px;
     font-weight: 700;
     font-size: 65px;
+    margin-bottom: 200px;
 }
+
 /* BAnner & Button*/
-.banner-subtitle{
+.banner-subtitle {
     font-weight: 700;
     font-size: 65px;
     color: #151414;
-    
+
 }
-.banner-description{
+
+.banner-description {
     font-weight: 400;
     font-size: 16px;
     color: #444343;
     margin-top: 20px;
 }
+
 .btn-primary {
     height: 64px;
     border-radius: 5px;
@@ -44,8 +49,44 @@
 }
 
 /* About section */
-.about{
+.about {
     display: flex;
     align-items: center;
-    
+    height: 700px;
+    /* background-image: url(../images/person.png);
+    background-repeat: no-repeat;
+    overflow: hidden; */
+    margin: 0 300px;
+}
+
+.about-div {
+    align-items: center;
+    height: 400px;
+    padding: 0 300px 0 100px;
+    margin-top: 120px;
+}
+
+.about-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+
+}
+
+.about-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin: 20px 0;
+}
+
+
+ul li{
+    color: #444343;
+    padding: ;
+    list-style: none;
+    height: px;
+}
+.space{
+    margin-right: 10px;
 }
