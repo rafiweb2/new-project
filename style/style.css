@@ -81,7 +81,6 @@
 
 ul li {
     color: #444343;
-    padding: ;
     list-style: none;
     height: px;
 }
@@ -206,17 +205,15 @@ ul li {
     margin-bottom: 15px;
     margin-top: 10px;
     padding: 0 300px;
+    padding-left: 200px;
+    align-items: center;
+    padding-right: 25px;
 }
 
 .foter-head{
     margin-bottom: 15px;
     margin-top: 20px;
 } 
-.foter-main {
-    padding-left: 200px;
-    align-items: center;
-    padding-right: 25px;
-}
 
 .table {
     padding-left: 700px;
