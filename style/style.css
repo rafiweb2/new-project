@@ -81,12 +81,46 @@
 }
 
 
-ul li{
+ul li {
     color: #444343;
     padding: ;
     list-style: none;
     height: px;
 }
-.space{
+
+.space {
     margin-right: 10px;
+}
+
+/* Plan Section */
+.full-plan {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-title {
+    text-align: center;
+    height: 47px;
+    color: #151414;
+    margin-top: 130px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.plan {
+    margin: 0 100px 0;
+
+}
+
+.plan-web {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.plam-par {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
 }
