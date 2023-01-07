@@ -186,13 +186,14 @@ ul li {
     border: 0;
     padding: 18PX 35px;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .btn-text {
     font-weight: 700;
     font-size: 40px;
     color: #ffffff;
+    
 }
 
 /* footer section */
@@ -210,12 +211,10 @@ ul li {
     padding: 0 300px;
 }
 
-/* .foter-pet{
-    padding-left: 20px;
-}
 .foter-head{
-    padding-left: 20px;
-} */
+    margin-bottom: 15px;
+    margin-top: 20px;
+} 
 .foter-main {
     padding-left: 200px;
     align-items: center;
@@ -228,7 +227,7 @@ ul li {
 
 .foter-head2 {
     color: #ffffff;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .table input[type="email"] {
@@ -236,4 +235,11 @@ ul li {
     padding: 0 150px 0 10px;
     border: 1px solid #FFFFFF;
     border-radius: 8px;
+}
+.ft-email{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.ft-phone{
+    margin-bottom: 15px;
 }
