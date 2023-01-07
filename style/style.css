@@ -126,13 +126,20 @@ ul li {
 }
 
 /* Bonus */
-.idea-plan{
+.bland1 {
+    margin-left: 400px;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+.idea-plan {
     display: flex;
     gap: 40px;
     justify-content: space-between;
     margin: 0 500px;
 }
-.idea-title{
+
+.idea-title {
     text-align: center;
     margin: 19px 0;
     height: 47px;
@@ -140,14 +147,86 @@ ul li {
     font-weight: 700;
     font-size: 40px;
 }
-.ide-header{
+
+.ide-header {
     font-weight: 600px;
     font-size: 25px;
 }
-.idea-proper{
+
+.idea-proper {
     background: #FFFFFF;
     box-shadow: 0px 6px 50px rgba(5, 3, 3, 0.06);
     border-radius: 5px;
     padding: 30px;
     margin-top: 30px;
+    margin-bottom: 55px;
 }
+
+/* gradient */
+
+.grad {
+    display: flex;
+    align-items: center;
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    margin-left: 350px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    height: 300px;
+    
+}
+
+.btn-call {
+    height: 60px;
+    border-radius: 5px;
+    background: #ffffff;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    padding: 18PX 35px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.btn-text {
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+/* footer section */
+.foter{
+    height: 400px;
+    background: #151414;
+    display: flex;
+    align-items: center;
+}
+.foter-main{
+    color: #ffffff;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding: 0 300px;
+}
+/* .foter-pet{
+    padding-left: 20px;
+}
+.foter-head{
+    padding-left: 20px;
+} */
+.foter-main{
+    padding-left: 200px;
+    align-items: center;
+    padding-right: 25px;
+}
+.table{
+    padding-left: 700px;
+}
+.foter-head2{
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.table input[type="email"] {
+    height: 74px;
+    padding: 0 10px 0 10px;
+    }
