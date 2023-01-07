@@ -173,7 +173,7 @@ ul li {
     margin-bottom: 50px;
     border-radius: 8px;
     height: 300px;
-    
+
 }
 
 .btn-call {
@@ -196,37 +196,44 @@ ul li {
 }
 
 /* footer section */
-.foter{
+.foter {
     height: 400px;
     background: #151414;
     display: flex;
     align-items: center;
 }
-.foter-main{
+
+.foter-main {
     color: #ffffff;
     margin-bottom: 15px;
     margin-top: 10px;
     padding: 0 300px;
 }
+
 /* .foter-pet{
     padding-left: 20px;
 }
 .foter-head{
     padding-left: 20px;
 } */
-.foter-main{
+.foter-main {
     padding-left: 200px;
     align-items: center;
     padding-right: 25px;
 }
-.table{
+
+.table {
     padding-left: 700px;
 }
-.foter-head2{
+
+.foter-head2 {
     color: #ffffff;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
+
 .table input[type="email"] {
-    height: 74px;
-    padding: 0 10px 0 10px;
-    }
+    height: 60px;
+    padding: 0 150px 0 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+}
