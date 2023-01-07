@@ -123,9 +123,9 @@ ul li {
     color: #737272;
 }
 
-.bland{
+.bland {
     display: flex;
-    padding:0 70px;
+    padding: 0 70px;
     height: 182px;
 }
 
@@ -164,7 +164,8 @@ ul li {
 .grad {
     display: flex;
     align-items: center;
-    background-image: url(../images/gradient3.png) ;
+    background-image: url(../images/gradient3.png);
+    background-image: url(../images/watch.png),linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 75%);
     background-blend-mode: screen;
     background-repeat: no-repeat;
     margin-left: 350px;
@@ -211,10 +212,10 @@ ul li {
     padding-right: 25px;
 }
 
-.foter-head{
+.foter-head {
     margin-bottom: 15px;
     margin-top: 20px;
-} 
+}
 
 .table {
     padding-left: 700px;
@@ -231,10 +232,12 @@ ul li {
     border: 1px solid #FFFFFF;
     border-radius: 8px;
 }
-.ft-email{
+
+.ft-email {
     margin-top: 25px;
     margin-bottom: 15px;
 }
-.ft-phone{
+
+.ft-phone {
     margin-bottom: 15px;
 }
