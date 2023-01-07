@@ -119,8 +119,35 @@ ul li {
     color: #151414;
 }
 
-.plam-par {
+.plan-par {
     font-weight: 500;
     font-size: 25px;
     color: #737272;
+}
+
+/* Bonus */
+.idea-plan{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    margin: 0 500px;
+}
+.idea-title{
+    text-align: center;
+    margin: 19px 0;
+    height: 47px;
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+}
+.ide-header{
+    font-weight: 600px;
+    font-size: 25px;
+}
+.idea-proper{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(5, 3, 3, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 30px;
 }
