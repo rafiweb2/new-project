@@ -164,7 +164,8 @@ ul li {
 .grad {
     display: flex;
     align-items: center;
-    background-image: url(../images/watch.png);
+    background-image: url(../images/gradient3.png) ;
+    background-blend-mode: screen;
     background-repeat: no-repeat;
     margin-left: 350px;
     margin-bottom: 50px;
