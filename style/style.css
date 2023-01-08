@@ -112,12 +112,14 @@ ul li {
 }
 
 .plan-web {
+    display: flex;
     font-weight: 700;
     font-size: 30px;
     color: #151414;
 }
 
 .plan-par {
+    display: flex;
     font-weight: 500;
     font-size: 25px;
     color: #737272;
@@ -165,7 +167,7 @@ ul li {
     display: flex;
     align-items: center;
     background-image: url(../images/gradient3.png);
-    background-image: url(../images/watch.png),linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 75%);
+    background-image: url(../images/watch.png),linear-gradient(100deg, #F15B22 0%, rgba(241, 91, 34, 0) 70%);
     background-blend-mode: screen;
     background-repeat: no-repeat;
     margin-left: 350px;
@@ -228,9 +230,11 @@ ul li {
 
 .table input[type="email"] {
     height: 60px;
-    padding: 0 150px 0 10px;
-    border: 1px solid #FFFFFF;
+    padding: 0 90px 0 10px;
+    border: 1.5px solid #FFFFFF;
     border-radius: 8px;
+    background-color: #151414;
+    font-size: 20px;
 }
 
 .ft-email {
@@ -240,4 +244,27 @@ ul li {
 
 .ft-phone {
     margin-bottom: 15px;
+}
+
+/* After Assignment */
+.icons{
+    display: flex;
+    padding: 0 45px;
+}
+.icons-special{
+    padding-left: 75px;
+}
+.icons-js{
+    padding-left: 30px;
+}
+.icons-ec{
+    padding-left: 20px;
+}
+.m-icon{
+    
+    padding-left: 80px;
+    
+}
+.foter-icon{
+    padding: 0 4px;
 }
